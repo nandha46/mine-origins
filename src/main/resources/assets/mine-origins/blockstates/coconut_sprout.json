@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "mine-origins:block/coconut_sprout"
+    },
+    "age=1": {
+      "model": "mine-origins:block/coconut_sprout"
+    },
+    "age=2": {
+      "model": "mine-origins:block/coconut_sprout"
+    }
+  }
+}

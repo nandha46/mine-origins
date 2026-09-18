@@ -7,5 +7,6 @@
             "path": "C:\\Program Files\\Microsoft\\jdk-25.0.4.101-hotspot",
             "default": true
         }
-    ]
+    ],
+    "java.configuration.updateBuildConfiguration": "interactive"
 }

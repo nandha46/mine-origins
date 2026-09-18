@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "aluminium_ingot",
+  "ingredient": "mine-origins:bauxite_ore",
+  "result": {
+    "id": "mine-origins:aluminium"
+  }
+}

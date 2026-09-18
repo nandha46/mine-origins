@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "mine-origins:block/coconut_log"
+    },
+    "axis=z": {
+      "model": "mine-origins:block/coconut_log_horizontal",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "mine-origins:block/coconut_log_horizontal",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

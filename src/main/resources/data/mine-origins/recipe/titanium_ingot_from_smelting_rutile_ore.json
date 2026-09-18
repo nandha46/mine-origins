@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 0.8,
+  "group": "titanium_ingot",
+  "ingredient": "mine-origins:rutile_ore",
+  "result": {
+    "id": "mine-origins:titanium"
+  }
+}

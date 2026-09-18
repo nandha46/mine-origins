@@ -1,9 +1,31 @@
 {
-    "item.mine-origins.bauxite": "Bauxite Ore",
-    "item.mine-origins.ilmenite": "Ilmenite Ore",
-    "item.mine-origins.rutile": "Rutile Ore",
-    "item.mine-origins.titanium": "Titanium",
-    "item.mine-origins.aluminium": "Aluminium",
+    "block.mine-origins.bauxite_ore": "Bauxite Ore",
+    "block.mine-origins.raw_bauxite_block": "Block of Raw Bauxite",
+    "block.mine-origins.aluminium_block": "Block of Aluminium",
+
+    "block.mine-origins.ilmenite_ore": "Ilmenite Ore",
+    "block.mine-origins.rutile_ore": "Rutile Ore",
+    "block.mine-origins.raw_titanium_block": "Block of Raw Titanium",
+    "block.mine-origins.titanium_block": "Block of Titanium",
+
+    "block.mine-origins.coconut_log": "Coconut Palm Log",
+    "block.mine-origins.coconut_wood": "Coconut Palm Wood",
+    "block.mine-origins.coconut_leaves": "Coconut Palm Leaves",
+    "block.mine-origins.coconut_sprout": "Coconut Sprout",
+
+    "item.mine-origins.raw_bauxite": "Raw Bauxite",
+    "item.mine-origins.aluminium": "Aluminium Ingot",
+    "item.mine-origins.raw_titanium": "Raw Titanium",
+    "item.mine-origins.titanium": "Titanium Ingot",
+
+    "item.mine-origins.coconut": "Coconut",
+    "item.mine-origins.coconut_fiber": "Coconut Fiber",
+    "item.mine-origins.rope": "Rope",
+
+    "item.mine-origins.bauxite": "Bauxite Ore Chunk",
+    "item.mine-origins.ilmenite": "Ilmenite Ore Chunk",
+    "item.mine-origins.rutile": "Rutile Ore Chunk",
+
     "item.mine-origins.aluminium_capacity.info": "Aluminium Capacity: %s",
     "creativeTab.mine-origins": "Mine Origins"
 }
