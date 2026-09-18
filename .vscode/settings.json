@@ -1,0 +1,11 @@
+{
+    "java.compile.nullAnalysis.mode": "disabled",
+    "java.jdt.ls.java.home": "C:\\Program Files\\Microsoft\\jdk-25.0.4.101-hotspot",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-25",
+            "path": "C:\\Program Files\\Microsoft\\jdk-25.0.4.101-hotspot",
+            "default": true
+        }
+    ]
+}

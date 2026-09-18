@@ -1,27 +1,35 @@
 package com.mineorigins;
 
 import net.fabricmc.api.ModInitializer;
-
+import net.fabricmc.fabric.api.item.v1.ItemComponentTooltipProviderRegistry;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.resources.Identifier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.mineorigins.Item.ModItems;
+import com.mineorigins.component.ModComponents;
+
 public class MineOrigins implements ModInitializer {
 	public static final String MOD_ID = "mine-origins";
 
-	// This logger is used to write text to the console and the log file.
-	// It is considered best practice to use your mod id as the logger's name.
-	// That way, it's clear which mod wrote info, warnings, and errors.
 	public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
 	@Override
 	public void onInitialize() {
-		// This code runs as soon as Minecraft is in a mod-load-ready state.
-		// However, some things (like resources) may still be uninitialized.
-		// Proceed with mild caution.
+		LOGGER.info("Initializing Mine Origins...");
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.initialize();
+		LOGGER.info("Registered ModItems and Creative Mode Tab");
+
+		ModComponents.initialize();
+		LOGGER.info("Registered ModComponents");
+
+		ItemComponentTooltipProviderRegistry.addAfter(DataComponents.DAMAGE, ModComponents.ADVANCED_CUSTOM_COMPONENT);
+		LOGGER.info("Registered Tooltip Provider for ADVANCED_CUSTOM_COMPONENT");
+
+		LOGGER.info("Mine Origins successfully initialized!");
 	}
 
 	public static Identifier id(String path) {

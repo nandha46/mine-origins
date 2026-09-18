@@ -1,0 +1,9 @@
+{
+    "item.mine-origins.bauxite": "Bauxite Ore",
+    "item.mine-origins.ilmenite": "Ilmenite Ore",
+    "item.mine-origins.rutile": "Rutile Ore",
+    "item.mine-origins.titanium": "Titanium",
+    "item.mine-origins.aluminium": "Aluminium",
+    "item.mine-origins.aluminium_capacity.info": "Aluminium Capacity: %s",
+    "creativeTab.mine-origins": "Mine Origins"
+}
