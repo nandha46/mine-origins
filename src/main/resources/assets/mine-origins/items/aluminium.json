@@ -1,6 +1,6 @@
 {
-    "model": {
-        "type": "minecraft:model",
-        "model": "mine-origins:item/aluminium"
-    }
+  "model": {
+    "type": "minecraft:model",
+    "model": "mine-origins:item/aluminium"
+  }
 }

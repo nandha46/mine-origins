@@ -1,6 +1,6 @@
 {
-    "model": {
-        "type": "minecraft:model",
-        "model": "mine-origins:item/titanium_block"
-    }
+  "model": {
+    "type": "minecraft:model",
+    "model": "mine-origins:item/titanium_block"
+  }
 }

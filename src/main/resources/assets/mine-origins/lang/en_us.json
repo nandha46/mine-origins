@@ -27,5 +27,28 @@
     "item.mine-origins.rutile": "Rutile Ore Chunk",
 
     "item.mine-origins.aluminium_capacity.info": "Aluminium Capacity: %s",
+
+    "block.mine-origins.sky_stone": "Sky Stone",
+    "block.mine-origins.sky_grass_block": "Sky Grass Block",
+    "block.mine-origins.sky_dirt": "Sky Dirt",
+    "block.mine-origins.glimmerstone": "Glimmerstone",
+    "block.mine-origins.sky_metal_ore": "Sky Metal Ore",
+    "block.mine-origins.raw_sky_metal_block": "Block of Raw Sky Metal",
+    "block.mine-origins.sky_metal_block": "Block of Sky Metal",
+    "block.mine-origins.chroma_ore": "Chroma Ore",
+    "block.mine-origins.prism_log": "Prism Log",
+    "block.mine-origins.prism_wood": "Prism Wood",
+    "block.mine-origins.prism_leaves": "Prism Leaves",
+    "block.mine-origins.prism_planks": "Prism Planks",
+    "block.mine-origins.sky_portal_block": "Aetherial Portal",
+
+    "item.mine-origins.raw_sky_metal": "Raw Sky Metal",
+    "item.mine-origins.sky_metal_ingot": "Sky Metal Ingot",
+    "item.mine-origins.chromatic_gem": "Chromatic Gem",
+    "item.mine-origins.aetherial_key": "Aetherial Key",
+    "item.mine-origins.dreamcatcher_wand": "Dreamcatcher Wand",
+    "item.mine-origins.eagle_spawn_egg": "Eagle Spawn Egg",
+    "entity.mine-origins.eagle": "Eagle",
+
     "creativeTab.mine-origins": "Mine Origins"
 }

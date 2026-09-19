@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "mine-origins:block/sky_dirt",
+    "up": "mine-origins:block/sky_grass_block_top",
+    "north": "mine-origins:block/sky_grass_block_side",
+    "south": "mine-origins:block/sky_grass_block_side",
+    "east": "mine-origins:block/sky_grass_block_side",
+    "west": "mine-origins:block/sky_grass_block_side",
+    "particle": "mine-origins:block/sky_dirt"
+  }
+}

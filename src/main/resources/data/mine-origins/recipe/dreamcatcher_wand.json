@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "C": "mine-origins:chromatic_gem",
+    "G": "mine-origins:glimmerstone",
+    "R": "mine-origins:rope",
+    "S": "mine-origins:sky_metal_ingot"
+  },
+  "pattern": [
+    " C ",
+    "RGS",
+    " S "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mine-origins:dreamcatcher_wand"
+  }
+}

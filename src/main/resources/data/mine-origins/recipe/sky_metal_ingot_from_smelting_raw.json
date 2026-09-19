@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.2,
+  "group": "sky_metal_ingot",
+  "ingredient": "mine-origins:raw_sky_metal",
+  "result": {
+    "id": "mine-origins:sky_metal_ingot"
+  }
+}

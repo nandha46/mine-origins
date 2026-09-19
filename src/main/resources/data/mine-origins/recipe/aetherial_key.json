@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": "mine-origins:chromatic_gem",
+    "S": "mine-origins:sky_metal_ingot"
+  },
+  "pattern": [
+    "  G",
+    " S ",
+    "S  "
+  ],
+  "result": {
+    "count": 1,
+    "id": "mine-origins:aetherial_key"
+  }
+}

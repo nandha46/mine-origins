@@ -36,6 +36,13 @@ public class ModItems {
     public static final Item COCONUT_FIBER = register(ModItemIds.COCONUT_FIBER, Item::new, new Item.Properties());
     public static final Item ROPE = register(ModItemIds.ROPE, Item::new, new Item.Properties());
 
+    // Sky Dimension items
+    public static final Item RAW_SKY_METAL = register(ModItemIds.RAW_SKY_METAL, Item::new, new Item.Properties());
+    public static final Item SKY_METAL_INGOT = register(ModItemIds.SKY_METAL_INGOT, Item::new, new Item.Properties());
+    public static final Item CHROMATIC_GEM = register(ModItemIds.CHROMATIC_GEM, Item::new, new Item.Properties());
+    public static final Item AETHERIAL_KEY = register(ModItemIds.AETHERIAL_KEY, AetherialKeyItem::new, new Item.Properties().durability(64));
+    public static final Item DREAMCATCHER_WAND = register(ModItemIds.DREAMCATCHER_WAND, DreamcatcherWandItem::new, new Item.Properties().durability(128));
+
     public static final ResourceKey<CreativeModeTab> MINE_ORIGINS_CREATIVE_TAB_KEY = ResourceKey.create(
             BuiltInRegistries.CREATIVE_MODE_TAB.key(), MineOrigins.id("creative_tab"));
 
@@ -66,6 +73,29 @@ public class ModItems {
                 output.accept(ModItems.COCONUT);
                 output.accept(ModItems.COCONUT_FIBER);
                 output.accept(ModItems.ROPE);
+
+                // Sky Dimension Suite
+                output.accept(ModBlocks.SKY_PORTAL_BLOCK);
+                output.accept(ModItems.AETHERIAL_KEY);
+                output.accept(ModItems.DREAMCATCHER_WAND);
+                output.accept(ModBlocks.SKY_STONE);
+                output.accept(ModBlocks.SKY_GRASS_BLOCK);
+                output.accept(ModBlocks.SKY_DIRT);
+                output.accept(ModBlocks.GLIMMERSTONE);
+                output.accept(ModBlocks.SKY_METAL_ORE);
+                output.accept(ModItems.RAW_SKY_METAL);
+                output.accept(ModBlocks.RAW_SKY_METAL_BLOCK);
+                output.accept(ModItems.SKY_METAL_INGOT);
+                output.accept(ModBlocks.SKY_METAL_BLOCK);
+                output.accept(ModBlocks.CHROMA_ORE);
+                output.accept(ModItems.CHROMATIC_GEM);
+                output.accept(ModBlocks.PRISM_LOG);
+                output.accept(ModBlocks.PRISM_WOOD);
+                output.accept(ModBlocks.PRISM_LEAVES);
+                output.accept(ModBlocks.PRISM_PLANKS);
+
+                // Eagle
+                output.accept(com.mineorigins.entity.ModEntities.EAGLE_SPAWN_EGG);
 
                 // Existing/compat ore items
                 output.accept(ModItems.BAUXITE);

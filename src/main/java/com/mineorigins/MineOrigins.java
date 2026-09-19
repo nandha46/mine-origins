@@ -37,6 +37,12 @@ public class MineOrigins implements ModInitializer {
 		ModWorldGen.initialize();
 		LOGGER.info("Registered Worldgen");
 
+		com.mineorigins.entity.ModEntities.initialize();
+		LOGGER.info("Registered ModEntities");
+
+		com.mineorigins.worldgen.dimension.ModDimensions.initialize();
+		LOGGER.info("Registered ModDimensions");
+
 		LOGGER.info("Mine Origins successfully initialized!");
 	}
 

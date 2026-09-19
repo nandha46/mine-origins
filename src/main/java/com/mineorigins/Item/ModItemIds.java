@@ -39,6 +39,28 @@ public class ModItemIds {
     public static final ResourceKey<Item> COCONUT_LEAVES = create("coconut_leaves");
     public static final ResourceKey<Item> COCONUT_SPROUT = create("coconut_sprout");
 
+    // --- Sky Dimension Items ---
+    public static final ResourceKey<Item> RAW_SKY_METAL = create("raw_sky_metal");
+    public static final ResourceKey<Item> SKY_METAL_INGOT = create("sky_metal_ingot");
+    public static final ResourceKey<Item> CHROMATIC_GEM = create("chromatic_gem");
+    public static final ResourceKey<Item> AETHERIAL_KEY = create("aetherial_key");
+    public static final ResourceKey<Item> DREAMCATCHER_WAND = create("dreamcatcher_wand");
+
+    // Sky Block Items
+    public static final ResourceKey<Item> SKY_STONE = create("sky_stone");
+    public static final ResourceKey<Item> SKY_GRASS_BLOCK = create("sky_grass_block");
+    public static final ResourceKey<Item> SKY_DIRT = create("sky_dirt");
+    public static final ResourceKey<Item> GLIMMERSTONE = create("glimmerstone");
+    public static final ResourceKey<Item> SKY_METAL_ORE = create("sky_metal_ore");
+    public static final ResourceKey<Item> RAW_SKY_METAL_BLOCK = create("raw_sky_metal_block");
+    public static final ResourceKey<Item> SKY_METAL_BLOCK = create("sky_metal_block");
+    public static final ResourceKey<Item> CHROMA_ORE = create("chroma_ore");
+    public static final ResourceKey<Item> PRISM_LOG = create("prism_log");
+    public static final ResourceKey<Item> PRISM_WOOD = create("prism_wood");
+    public static final ResourceKey<Item> PRISM_LEAVES = create("prism_leaves");
+    public static final ResourceKey<Item> PRISM_PLANKS = create("prism_planks");
+    public static final ResourceKey<Item> SKY_PORTAL_BLOCK = create("sky_portal_block");
+
     public static ResourceKey<Item> create(String name) {
         return ResourceKey.create(Registries.ITEM, MineOrigins.id(name));
     }
