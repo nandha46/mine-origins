@@ -9,11 +9,15 @@ import net.fabricmc.fabric.api.creativetab.v1.FabricCreativeModeTab;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.network.chat.Component;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.resources.ResourceKey;
+import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.equipment.Equippable;
 
 public class ModItems {
 
@@ -45,6 +49,19 @@ public class ModItems {
 
     // Dragon City Items
     public static final Item DRACONIUM_CORE = register(ModItemIds.DRACONIUM_CORE, DraconiumCoreItem::new, new Item.Properties().durability(64));
+    public static final Item DEBUG_GOGGLES = register(
+            ModItemIds.DEBUG_GOGGLES,
+            Item::new,
+            new Item.Properties()
+                    .stacksTo(1)
+                    .component(
+                            DataComponents.EQUIPPABLE,
+                            Equippable.builder(EquipmentSlot.HEAD)
+                                    .setEquipSound(SoundEvents.ARMOR_EQUIP_GENERIC)
+                                    .setSwappable(true)
+                                    .build()
+                    )
+    );
 
     public static final ResourceKey<CreativeModeTab> MINE_ORIGINS_CREATIVE_TAB_KEY = ResourceKey.create(
             BuiltInRegistries.CREATIVE_MODE_TAB.key(), MineOrigins.id("creative_tab"));
@@ -101,6 +118,7 @@ public class ModItems {
                 output.accept(ModBlocks.MAG_BOOST_PAD);
                 output.accept(ModBlocks.DRAGON_CITY_PORTAL_BLOCK);
                 output.accept(ModItems.DRACONIUM_CORE);
+                output.accept(ModItems.DEBUG_GOGGLES);
 
                 // Eagle
                 output.accept(com.mineorigins.entity.ModEntities.EAGLE_SPAWN_EGG);

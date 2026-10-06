@@ -65,6 +65,7 @@ public class ModItemIds {
     public static final ResourceKey<Item> MAG_BOOST_PAD = create("mag_boost_pad");
     public static final ResourceKey<Item> DRAGON_CITY_PORTAL_BLOCK = create("dragon_city_portal_block");
     public static final ResourceKey<Item> DRACONIUM_CORE = create("draconium_core");
+    public static final ResourceKey<Item> DEBUG_GOGGLES = create("debug_goggles");
 
     public static ResourceKey<Item> create(String name) {
         return ResourceKey.create(Registries.ITEM, MineOrigins.id(name));

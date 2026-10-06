@@ -1,7 +1,58 @@
 {
   "variants": {
-    "": {
-      "model": "mine-origins:block/dragon_city_portal_block"
+    "axis=x,part=top_left": {
+      "model": "mine-origins:block/dragon_city_portal_top_right_x"
+    },
+    "axis=z,part=top_left": {
+      "model": "mine-origins:block/dragon_city_portal_top_right_z"
+    },
+    "axis=x,part=top_center": {
+      "model": "mine-origins:block/dragon_city_portal_top_center_x"
+    },
+    "axis=z,part=top_center": {
+      "model": "mine-origins:block/dragon_city_portal_top_center_z"
+    },
+    "axis=x,part=top_right": {
+      "model": "mine-origins:block/dragon_city_portal_top_left_x"
+    },
+    "axis=z,part=top_right": {
+      "model": "mine-origins:block/dragon_city_portal_top_left_z"
+    },
+    "axis=x,part=middle_left": {
+      "model": "mine-origins:block/dragon_city_portal_middle_right_x"
+    },
+    "axis=z,part=middle_left": {
+      "model": "mine-origins:block/dragon_city_portal_middle_right_z"
+    },
+    "axis=x,part=center": {
+      "model": "mine-origins:block/dragon_city_portal_center_x"
+    },
+    "axis=z,part=center": {
+      "model": "mine-origins:block/dragon_city_portal_center_z"
+    },
+    "axis=x,part=middle_right": {
+      "model": "mine-origins:block/dragon_city_portal_middle_left_x"
+    },
+    "axis=z,part=middle_right": {
+      "model": "mine-origins:block/dragon_city_portal_middle_left_z"
+    },
+    "axis=x,part=bottom_left": {
+      "model": "mine-origins:block/dragon_city_portal_bottom_right_x"
+    },
+    "axis=z,part=bottom_left": {
+      "model": "mine-origins:block/dragon_city_portal_bottom_right_z"
+    },
+    "axis=x,part=bottom_center": {
+      "model": "mine-origins:block/dragon_city_portal_bottom_center_x"
+    },
+    "axis=z,part=bottom_center": {
+      "model": "mine-origins:block/dragon_city_portal_bottom_center_z"
+    },
+    "axis=x,part=bottom_right": {
+      "model": "mine-origins:block/dragon_city_portal_bottom_left_x"
+    },
+    "axis=z,part=bottom_right": {
+      "model": "mine-origins:block/dragon_city_portal_bottom_left_z"
     }
   }
 }

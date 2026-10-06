@@ -1,10 +1,10 @@
 {
     "java.compile.nullAnalysis.mode": "disabled",
-    "java.jdt.ls.java.home": "C:\\Program Files\\Microsoft\\jdk-25.0.4.101-hotspot",
+    "java.jdt.ls.java.home": "C:\\Users\\venka\\.gradle\\jdks\\eclipse_adoptium-25-amd64-windows",
     "java.configuration.runtimes": [
         {
             "name": "JavaSE-25",
-            "path": "C:\\Program Files\\Microsoft\\jdk-25.0.4.101-hotspot",
+            "path": "C:\\Users\\venka\\.gradle\\jdks\\eclipse_adoptium-25-amd64-windows",
             "default": true
         }
     ],
